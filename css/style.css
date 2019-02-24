@@ -73,7 +73,7 @@
 }
 
 .title{ 
-    align-self: center;
+    
     font-weight: lighter;
     font-style: italic;
     font-size: 2.5rem;
@@ -83,6 +83,7 @@
     height: auto;
     display: flex;
     flex-flow: wrap;
+    flex-direction: column;
 }
 
 .perfil {
@@ -94,6 +95,7 @@
     width: auto;
     max-width: 30rem;
     flex-flow: wrap;
+    align-self: center;
 }
 .perfil img{
     height: 90px;
